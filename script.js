@@ -41,7 +41,7 @@ window.addEventListener("scroll", function() {
     }); 
   
   
-       navLinks.forEach(link => { 
+       navLinks. forEach(link => { 
         link.classList.remove("active"); 
         if (link.getAttribute("href") === "#" + 
     current)
